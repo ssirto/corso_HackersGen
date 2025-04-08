@@ -1,0 +1,20 @@
+/* ============================ */
+/* ========== CLASSI ========== */
+
+.works-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 0 5rem;
+}
+
+.works-grid > :nth-child(odd) {
+    margin-top: 5rem;
+}
+
+.works-item img {
+    width: 100%;
+    height: 630px;
+    object-fit: cover;
+    background-color: black;
+}
