@@ -18,3 +18,20 @@
     object-fit: cover;
     background-color: black;
 }
+
+
+/* ========================= */
+/* ===== MOBILE LAYOUT ===== */
+
+@media (max-width: 768px) {
+    .works-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3rem 0;
+    }
+    .works-grid > :nth-child(odd) {
+        margin-top: 0;
+    }
+    .works-item img {
+        height: 300px;
+    }
+}
